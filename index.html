@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"content="IE=edge">
+    <title>A Static Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=swap" rel="stylesheet">
+    <style>
+        *{
+           margin: 0;
+           padding: 0; 
+        }
+body{
+    background-color: rgb(1, 44, 30);
+    color: white;
+    font-family: "Big Shoulders Inline", sans-serif;;
+}
+    nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100px;
+        background-color: rgb(2, 66, 44);
+
+    }
+    nav ul{
+        display: flex;
+        justify-content:center ;
+    }
+    nav ul li{
+          list-style: none; 
+          margin: 23px; ; 
+    }
+    .left{
+        font-size:2rem ;
+    }
+    .right{
+        font-size: 1.15rem;
+    }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Static Website</div>
+            <div class="right"></div>
+                <ul>
+                    <li>Hello</li>
+                    <li>Hi</li>
+                    <li>!!!</li>
+                </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection"></div>
+            <Image
+            src="Images/home.png"
+            width={51}
+            height={37}
+            alt='IMG'
+            className='cursor=pointer'
+            />
+            <div class="rightSection"></div>
+        </section>
+    </main>
+</body>    
+</html>
